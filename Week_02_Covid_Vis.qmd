@@ -44,8 +44,12 @@ ggplot(covid_data_count, aes(x= log(Cases), y = race, color=race)) +
 ```
 
 2. Are there any conclusions you can draw?
+Overall, NHPI and AIAN have a smaller number of cases, while White and Latinx have a larger number of cases. Others and Asians show a wider spread in terms of IQR and whisker length, whereas White and Latinx have smaller whisker lengths.
 
 3. What were you not able to do due to not having the R knowledge?
+I am unable to remove the 'total' variable in the visualization. This variable is too large to visualize the cases among specific races, which hinders my ability to focus on a more detailed analysis of those specific races.
 
 4. What other data would be useful to better understand this data?
+The age of each COVID case may be useful for analyzing the situation of cases among different races. Additionally, it should also include the number of people in each race for comparison, as some races may have a large population, resulting in a higher number of cases
+
 
